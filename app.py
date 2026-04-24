@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-        return "Version 3 - Déploiement automatique avec Webhook"
+        return "Version 3.0 - Déploiement automatique avec Webhook"
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
